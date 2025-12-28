@@ -1,0 +1,48 @@
+name: lane_keeper
+description: A production-quality prototype for Phone-based Driving Telemetry.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^3.1.1
+  firebase_auth: ^5.1.1
+  cloud_firestore: ^5.0.2
+  google_sign_in: ^6.2.1
+
+  # State Management
+  flutter_riverpod: ^2.4.9
+  riverpod_annotation: ^2.3.3
+
+  # Telemetry & Location
+  geolocator: ^10.1.0
+  sensors_plus: ^4.0.0
+  permission_handler: ^11.1.0
+
+  # Utilities
+  shared_preferences: ^2.2.2
+  share_plus: ^7.2.1
+  intl: ^0.19.0
+  uuid: ^4.2.2
+  path_provider: ^2.1.1
+  equatable: ^2.0.5
+  lucide_icons: ^0.257.0 # Optional, for icons
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  riverpod_generator: ^2.3.9
+  build_runner: ^2.4.7
+  mocktail: ^1.0.3
+
+flutter:
+  uses-material-design: true
+  assets:
+  # - assets/images/
